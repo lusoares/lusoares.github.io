@@ -83,6 +83,7 @@ img{
 .region-top .article-left {
   float: left;
   width: 66%;
+  height:100%;
   position: relative;
   background-image: url("https://think.storage.googleapis.com/images/mm-guide-be-there-hp-hero.jpg");
 }
@@ -222,9 +223,20 @@ ul.tags li a {
 
 @media all and (max-width: 769px){
  .container{
-
+   display:flex;
+   flex-direction: column;
  }
- .region-top{
-
+ .region-top {
+  flex-direction: column;
  }
+}
+
+
+@media all and (max-width: 1024px){
+  .container{
+
+  }
+  .region-top{
+
+  }
 }
