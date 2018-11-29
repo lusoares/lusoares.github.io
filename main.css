@@ -5,11 +5,43 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 img{
   max-width: 100%;
+}
+
+.footerButton {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    background-color: gray;
+    color:white;
+}
+
+.meteo{
+    display:none;
+}
+
+.logo{
+    filter: invert(100%);
+}
+
+.logo img{
+    height: 50px;
+}
+foo1ter{
+    display:flex;
+    flex-direction: column;
 }
 
 @media all and (max-width: 769px){
@@ -17,8 +49,8 @@ img{
 
  }
 
-  }
 }
+
 
 
 @media all and (max-width: 1024px){
