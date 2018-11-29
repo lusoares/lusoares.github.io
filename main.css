@@ -47,14 +47,40 @@ header {
 .logo img{
     height: 50px;
 }
+
+
+aside{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10%;
+}
+
+.social{
+    display:none;
+    background-color: cyan;
+}
+
+
 footer{
     display:flex;
     flex-direction: column;
 }
 
-@media all and (max-width: 769px){
-    body{
-        background-color: aqua;
+@media all and (min-width: 769px){
+
+    .social{
+        display:flex;
     }
+
+    footer{
+        flex-direction: row;
+    }
+
+    .footerButton {
+        margin:auto;
+        justify-content: center;
+    }
+
 }
 
