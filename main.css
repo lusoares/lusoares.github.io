@@ -20,16 +20,24 @@ img{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 header {
     display:flex;
     justify-content: space-between;
     background-color: gray;
     color:white;
+    height: 60px;
+    padding: 20px;
 }
 
 .meteo{
     display:none;
+}
+
+.title{
+    font-size: 200%;
 }
 
 .logo{
@@ -39,25 +47,14 @@ header {
 .logo img{
     height: 50px;
 }
-foo1ter{
+footer{
     display:flex;
     flex-direction: column;
 }
 
 @media all and (max-width: 769px){
- .container{
-
- }
-
+    body{
+        background-color: aqua;
+    }
 }
 
-
-
-@media all and (max-width: 1024px){
-  .container{
-
-  }
-  .region-top{
-
-  }
-}
